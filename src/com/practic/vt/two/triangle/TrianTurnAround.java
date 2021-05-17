@@ -40,12 +40,7 @@ public class TrianTurnAround extends JPanel implements Runnable{
                         }
                         case 1 -> {
                             y[i] -= 1;
-                            //x[i] -= 1;
                         }
-//                        case 2 -> {
-//                            x[i] += 1;
-//                            y[i] += 1;
-//                        }
                     }
                     this.repaint();
                     Thread.sleep(10);
